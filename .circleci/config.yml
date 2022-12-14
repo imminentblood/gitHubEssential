@@ -16,7 +16,7 @@ jobs:
     steps:
       - checkout
       - run:
-          name: build the jekyll site
+          name: "build the jekyll site"
           command: bundle exec jekyll build
 
 # Invoke jobs via workflows
